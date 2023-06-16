@@ -22,8 +22,8 @@ public class Ej02 {
 		System.out.println("Introduzca tres numeros: ");
 		int num1 = teclado.nextInt(),num2 = teclado.nextInt(), num3=teclado.nextInt();
 		
-		if (num1<num2 && num2<num3) System.out.printf("%d es el menor",num1);
-		else if (num1>num2 && num2>num3) System.out.printf("%d es el menor",num3);
+		if (num1<=num2 && num2<=num3) System.out.printf("%d es el menor",num1);
+		else if (num1>=num2 && num2>=num3) System.out.printf("%d es el menor",num3);
 		else System.out.printf("%d es el menor", num2);
 		
 		teclado.close();
