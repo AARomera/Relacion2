@@ -47,7 +47,7 @@ public class Ej09 {
 		} else if (sueldo>4600) {
 			impuesto=0.2;
 			if(hijos>10) {descuento=1-0.15;}
-			else {descuento=(1-(1.5*hijos));}
+			else {descuento=(1-((1.5*hijos)/100));}
 		}
 		
 		total=sueldo*impuesto*descuento;
