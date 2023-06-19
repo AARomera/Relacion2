@@ -31,12 +31,12 @@ public class Ej05 {
 		
 		if ((columna1>8 || columna1<1) || (columna2>8 || columna2<1) || (fila1>8 || fila1<1) || (fila2>8 || fila2<1))
 			System.out.println("ERROR: Datos fuera del tablero.");
-		else if (fila1==fila2) 
-			System.out.println("Están en la misma fila.");
-		else if (columna1==columna2) 
-			System.out.println("Están en la misma columna.");
 		else if ((fila1==fila2) && (columna1==columna2)) 
 			System.out.println("Son la misma casilla.");
+		else if (fila1==fila2) 
+			System.out.println("Están en la misma fila.");
+		else  if (columna1==columna2) 
+			System.out.println("Están en la misma columna.");
 		else if ((Math.abs(columna2-columna1)) == (Math.abs(fila1-fila2))) 
 			System.out.println("Están en la misma diagonal.");
 		else
