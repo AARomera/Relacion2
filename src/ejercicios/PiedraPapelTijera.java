@@ -75,7 +75,7 @@ public class PiedraPapelTijera {
 		}
 		System.out.println(usuario + "|" + maquina);
 		cont = cont +1;
-		} while (cont<=3);
+		} while (cont<3);
 		teclado.close();
 		
 	}
